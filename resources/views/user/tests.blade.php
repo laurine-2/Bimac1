@@ -17,6 +17,9 @@
   <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
   <!-- custom Css-->
   <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+
+  <link href="assets/css/colors.css" rel="stylesheet" />
+
 @endsection
 @section('page-content')
     <div class="page-content">
@@ -37,8 +40,8 @@
                   <div class="col-xl-3 col-lg-6">
                     <div class="card ribbon-box right overflow-hidden">
                         <div class="card-body text-center p-4">
-                            <div class="ribbon ribbon-info ribbon-shape trending-ribbon"><i class="ri-flashlight-fill text-white align-bottom"></i> <span class="trending-ribbon-text">Test {{$test->subcategory->title}}</span></div>
-                            <h5 class="mb-1 mt-4"><a href="apps-ecommerce-seller-details.html" class="link-primary">{{$test->created_at}}</a></h5>
+                            <div class="ribbon primary-color ribbon-shape trending-ribbon"><i class="ri-flashlight-fill text-white align-bottom"></i> <span class="trending-ribbon-text">Test {{$test->subcategory->title}}</span></div>
+                            <h5 class="mb-1 mt-4"><a  class="link-primary">{{$test->created_at}}</a></h5>
                             <p class="text-muted mb-4">Subcategory : {{$test->subcategory->title}}</p>
                             <div class="mt-4">
                                 <a href="{{route('my-answers',['test_id'=>$test->id])}}" class="btn btn-light w-100">Voir les réponses</a>

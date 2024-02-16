@@ -17,14 +17,15 @@
   <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
   <!-- custom Css-->
   <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/colors.css" rel="stylesheet" type="text/css" />
 
   <style>
 	.items-collection{
 		margin:20px 0 0 0;
 	}
 	.items-collection label.btn-default.active{
-		background-color:#007ba7;
-		color:#FFF;
+		background-color: #581e75;
+    color: #ffffff;
 	}
 	.items-collection label.btn-default{
 		width:90%;
@@ -57,7 +58,7 @@
 						<div class="page-title-box d-sm-flex align-items-center justify-content-between">
 							<h2 class="mb-sm-0">Quiz pour  {{$subcategory->title}}</h4>
 							<div id="submit-button">
-								 <button onclick="checkFormCompletion(true)" type="button" class="btn btn-dark">Submit</button>
+								 <button onclick="checkFormCompletion(true)" type="button" class="btn primary-color">Submit</button>
 							<div>
 						</div>
 						
@@ -240,7 +241,7 @@ $(function () {
 		console.log((allQuestionsHasBeenAnswer));
 
 		if(allQuestionsHasBeenAnswer.length == questions.length){
-			$('#submit-button').html('<button type="submit" class="btn btn-success">Submit</button>');
+			$('#submit-button').html('<button type="submit" class="btn primary">Submit</button>');
 		}
 		else{
 			if(frombottun){

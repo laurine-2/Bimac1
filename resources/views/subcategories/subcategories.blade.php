@@ -11,6 +11,7 @@
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
     <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/colors.css" rel="stylesheet" />
 
     <style>
         .bloc img {
@@ -18,6 +19,7 @@
             height: 250px;
             object-fit: cover;
         }
+       
     </style>
 @endsection
 @section('page-content')
@@ -35,7 +37,7 @@
             <!-- end page title -->
 
             <div>
-              <a href="{{route('add-subcategory-page')}}" class="btn btn-success" id="addquestion-btn"><i class="ri-add-line align-bottom me-1"></i> Add subcategory</a>
+              <a href="{{route('add-subcategory-page')}}" class="btn primary-color" id="addquestion-btn"><i class="ri-add-line align-bottom me-1"></i> Add subcategory</a>
             </div>
 
             <div class="row mt-5">

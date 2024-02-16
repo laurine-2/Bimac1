@@ -17,6 +17,8 @@
   <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
   <!-- custom Css-->
   <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/colors.css" rel="stylesheet" />
+
 @endsection
 @section('page-content')
     <div class="page-content">
@@ -30,7 +32,7 @@
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Ecommerce</a></li>
+                                
                                 <li class="breadcrumb-item active">Subcategories</li>
                             </ol>
                         </div>
@@ -44,7 +46,7 @@
                   <div class="col-xl-3 col-lg-6">
                     <div class="card ribbon-box right overflow-hidden">
                         <div class="card-body text-center p-4">
-                            <div class="ribbon ribbon-info ribbon-shape trending-ribbon"><i class="ri-flashlight-fill text-white align-bottom"></i> <span class="trending-ribbon-text">{{$subcategory->title}}</span></div>
+                            <div class="ribbon primary-color ribbon-shape trending-ribbon"><i class="ri-flashlight-fill text-white align-bottom"></i> <span class="trending-ribbon-text">{{$subcategory->title}}</span></div>
                             <h5 class="mb-1 mt-4"><a href="apps-ecommerce-seller-details.html" class="link-primary">{{$subcategory->title}}</a></h5>
                             <p class="text-muted mb-4">{!!$subcategory->description!!}</p>
                             <div class="mt-4">

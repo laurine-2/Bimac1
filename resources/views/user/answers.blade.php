@@ -17,14 +17,15 @@
   <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
   <!-- custom Css-->
   <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/colors.css" rel="stylesheet" />
 
   <style>
 	.items-collection{
 		margin:20px 0 0 0;
 	}
 	.items-collection label.btn-default.active{
-		background-color:#007ba7;
-		color:#FFF;
+		background-color: #581e75;
+    color: #ffffff;
 	}
 	.items-collection label.btn-default{
 		width:90%;

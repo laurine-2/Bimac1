@@ -17,6 +17,9 @@
   <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
   <!-- custom Css-->
   <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/colors.css" rel="stylesheet" />
+
+
 @endsection
 @section('page-content')
     <div class="page-content">
@@ -30,7 +33,7 @@
 
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
-                                <li class="breadcrumb-item"><a href="javascript: void(0);">Ecommerce</a></li>
+                                
                                 <li class="breadcrumb-item active">Questions</li>
                             </ol>
                         </div>
@@ -52,7 +55,7 @@
                         <div class="row g-4">
                          <div class="col-sm-auto">
                           <div>
-                            <a href="{{route('add-question-page')}}" class="btn btn-success" id="addquestion-btn"><i class="ri-add-line align-bottom me-1"></i> Add Question</a>
+                            <a href="{{route('add-question-page')}}" class="btn primary-color" id="addquestion-btn"><i class="ri-add-line align-bottom me-1"></i> Add Question</a>
                           </div>
                          </div>
                         </div>

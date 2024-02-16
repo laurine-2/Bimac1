@@ -9,6 +9,8 @@
 		<meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
 		<meta content="Themesbrand" name="author" />
 		<link rel="shortcut icon" href="assets/images/logo.png">
+		<link href="assets/css/colors.css" rel="stylesheet" />
+		
 
 		
 
@@ -490,7 +492,7 @@
 				</div><!-- /.modal-dialog -->
 			</div><!-- /.modal -->
 			<!-- ========== App Menu ========== -->
-			<div class="app-menu navbar-menu">
+			<div style="background-color: #581e75; color: #ffffff" class="navbar-menu">
 				<!-- LOGO -->
 				<div class="navbar-brand-box">
 					<!-- Dark Logo-->
@@ -583,7 +585,7 @@
 					<!-- Sidebar -->
 				</div>
 
-				<div class="sidebar-background"></div>
+				
 			</div>
 			<!-- Left Sidebar End -->
 			<!-- Vertical Overlay-->
@@ -647,7 +649,7 @@
 		</div>
 
 		<!-- Theme Settings -->
-		<!-- <div class="offcanvas offcanvas-end border-0" tabindex="-1" id="theme-settings-offcanvas">
+		<div class="offcanvas offcanvas-end border-0" tabindex="-1" id="theme-settings-offcanvas">
 			<div class="d-flex align-items-center bg-primary bg-gradient p-3 offcanvas-header">
 				<h5 class="m-0 me-2 text-white">Theme Customizer</h5>
 
@@ -735,7 +737,7 @@
 							</div>
 							<!-- end col -->
 
-							<!-- <div class="col-4">
+							<div class="col-4">
 								<div class="form-check card-radio">
 									<input id="customizer-layout04" name="data-layout" type="radio" value="semibox" class="form-check-input">
 									<label class="form-check-label p-0 avatar-md w-100" for="customizer-layout04">
@@ -758,14 +760,14 @@
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Semi Box</h5>
-							</div> -->
+							</div>
 							<!-- end col -->
 						</div>
 
 						<h6 class="mt-4 mb-0 fw-semibold text-uppercase">Color Scheme</h6>
 						<p class="text-muted">Choose Light or Dark Scheme.</p>
 
-						<!-- <div class="colorscheme-cardradio">
+						<div class="colorscheme-cardradio">
 							<div class="row">
 								<div class="col-4">
 									<div class="form-check card-radio">
@@ -817,9 +819,9 @@
 									<h5 class="fs-13 text-center mt-2">Dark</h5>
 								</div>
 							</div>
-						</div> -->
+						</div>
 
-						<!-- <div id="sidebar-visibility">
+						<div id="sidebar-visibility">
 							<h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Visibility</h6>
 							<p class="text-muted">Choose show or Hidden sidebar.</p>
 					
@@ -921,9 +923,9 @@
 									<h5 class="fs-13 text-center mt-2">Boxed</h5>
 								</div>
 							</div>
-						</div> -->
+						</div>
 
-						<!-- <div id="layout-position">
+						<div id="layout-position">
 							<h6 class="mt-4 mb-0 fw-semibold text-uppercase">Layout Position</h6>
 							<p class="text-muted">Choose Fixed or Scrollable Layout Position.</p>
 
@@ -962,8 +964,8 @@
 									</label>
 								</div>
 								<h5 class="fs-13 text-center mt-2">Light</h5>
-							</div> -->
-							<!-- <div class="col-4">
+							</div>
+							<div class="col-4">
 								<div class="form-check card-radio">
 									<input class="form-check-input" type="radio" name="data-topbar" id="topbar-color-dark" value="dark">
 									<label class="form-check-label p-0 avatar-md w-100" for="topbar-color-dark">
@@ -987,9 +989,9 @@
 								</div>
 								<h5 class="fs-13 text-center mt-2">Dark</h5>
 							</div>
-						</div> -->
+						</div>
 
-						<!-- <div id="sidebar-size">
+						<div id="sidebar-size">
 							<h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Size</h6>
 							<p class="text-muted">Choose a size of Sidebar.</p>
 
@@ -1017,9 +1019,9 @@
 										</label>
 									</div>
 									<h5 class="fs-13 text-center mt-2">Default</h5>
-								</div> -->
+								</div>
 
-								<!-- <div class="col-4">
+								<div class="col-4">
 									<div class="form-check sidebar-setting card-radio">
 										<input class="form-check-input" type="radio" name="data-sidebar-size" id="sidebar-size-compact" value="md">
 										<label class="form-check-label p-0 avatar-md w-100" for="sidebar-size-compact">
@@ -1042,9 +1044,9 @@
 										</label>
 									</div>
 									<h5 class="fs-13 text-center mt-2">Compact</h5>
-								</div> -->
+								</div>
 
-								<!-- <div class="col-4">
+								<div class="col-4">
 									<div class="form-check sidebar-setting card-radio">
 										<input class="form-check-input" type="radio" name="data-sidebar-size" id="sidebar-size-small" value="sm">
 										<label class="form-check-label p-0 avatar-md w-100" for="sidebar-size-small">
@@ -1067,9 +1069,9 @@
 										</label>
 									</div>
 									<h5 class="fs-13 text-center mt-2">Small (Icon View)</h5>
-								</div> -->
+								</div>
 
-								<!-- <div class="col-4">
+								<div class="col-4">
 									<div class="form-check sidebar-setting card-radio">
 										<input class="form-check-input" type="radio" name="data-sidebar-size" id="sidebar-size-small-hover" value="sm-hover">
 										<label class="form-check-label p-0 avatar-md w-100" for="sidebar-size-small-hover">
@@ -1092,8 +1094,8 @@
 										</label>
 									</div>
 									<h5 class="fs-13 text-center mt-2">Small Hover View</h5>
-								</div> -->
-							<!-- </div>
+								</div>
+							</div>
 						</div>
 
 						<div id="sidebar-view">
@@ -1124,8 +1126,8 @@
 										</label>
 									</div>
 									<h5 class="fs-13 text-center mt-2">Default</h5>
-								</div> -->
-								<!-- <div class="col-4">
+								</div>
+								<div class="col-4">
 									<div class="form-check sidebar-setting card-radio">
 										<input class="form-check-input" type="radio" name="data-layout-style" id="sidebar-view-detached" value="detached">
 										<label class="form-check-label p-0 avatar-md w-100" for="sidebar-view-detached">
@@ -1149,8 +1151,8 @@
 										</label>
 									</div>
 									<h5 class="fs-13 text-center mt-2">Detached</h5>
-								</div> -->
-							<!-- </div>
+								</div>
+							</div>
 						</div>
 						<div id="sidebar-color">
 							<h6 class="mt-4 mb-0 fw-semibold text-uppercase">Sidebar Color</h6>
@@ -1226,10 +1228,10 @@
 									</button>
 									<h5 class="fs-13 text-center mt-2">Gradient</h5>
 								</div>
-							</div> -->
+							</div>
 							<!-- end row -->
 
-							<!-- <div class="collapse" id="collapseBgGradient">
+							<div class="collapse" id="collapseBgGradient">
 								<div class="d-flex gap-2 flex-wrap img-switch p-2 px-3 bg-light rounded">
 
 									<div class="form-check sidebar-setting card-radio">
@@ -1300,9 +1302,9 @@
 									</label>
 								</div>
 							</div>
-						</div> -->
+						</div>
 
-						<!-- <div id="preloader-menu">
+						<div id="preloader-menu">
 							<h6 class="mt-4 mb-0 fw-semibold text-uppercase">Preloader</h6>
 							<p class="text-muted">Choose a preloader.</p>
 						
@@ -1333,8 +1335,8 @@
 													<span class="visually-hidden">Loading...</span>
 												</div>
 											</div> -->
-											<!-- </div> -->
-										<!-- </label>
+											<!-- </div>
+										</label>
 									</div>
 									<h5 class="fs-13 text-center mt-2">Enable</h5>
 								</div>
@@ -1364,7 +1366,7 @@
 								</div>
 							</div>
 						
-						</div> -->
+						</div>
 						<!-- end preloader-menu -->
 <!-- 
 					</div>
@@ -1381,7 +1383,7 @@
 					</div>
 				</div>
 			</div>
-		</div>  -->
+		</div>  
 
 		<!-- JAVASCRIPT -->
 		
